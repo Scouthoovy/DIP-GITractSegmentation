@@ -30,7 +30,10 @@ The code structure of the project is organized into 5 main files:
 * atlas_creation.py
 * validation.py
 
-## Data Format
+## Data & Format
+
+The dataset can found online at https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation/data.
+
 data/ 
 
 └── train/ 

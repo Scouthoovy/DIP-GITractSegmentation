@@ -34,6 +34,8 @@ The code structure of the project is organized into 5 main files:
 
 The dataset can found online at https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation/data.
 
+Once downloaded, the structure of the data follows this format:
+
 data/ 
 
 └── train/ 
@@ -57,6 +59,8 @@ data/
 │       └── ...
 
 └── ...
+
+This format is what the code will expect as well.
 
 ## Execution
 ### Configuration

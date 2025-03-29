@@ -31,7 +31,8 @@ The code structure of the project is organized into 5 main files:
 * validation.py
 
 ## Data Format
-data/ \nline
+data/ 
+
 └── train/ \\
 └── case101/ \\
 ├── case101_day20/

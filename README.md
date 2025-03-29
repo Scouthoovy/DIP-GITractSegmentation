@@ -14,10 +14,40 @@ The key steps in this automated process are as follows:
 * Intra-case atlas creation to reduce variation across scans.
 
 ## Dependencies
+The follwoing Python libraries are utilized to build this project:
+
+* SimpleITK: Allows for multi-dimensional image analysis. Used to process our NIFTI images and conduct image registration.
+* NumPy: Allows for efficent mathematical operations.
+* Pillow: Allows for reading PNG image slices.
+* Scikit-Image: Used for resizing images.
+
 ## Installation
 ## Code Structure
+The code structure of the project is organized into 5 main files:
+* main.py
+* utils.py
+* preprocessing.py
+* atlas_creation.py
+* validation.py
+
 ## Data Format
+data/
+└── train/
+└── case101/
+├── case101_day20/
+│   └── scans/
+│       ├── slice_0001.png
+│       ├── slice_0002.png
+│       └── ...
+├── case101_day22/
+│   └── scans/
+│       └── ...
+└── ...
+
 ## Execution
+### Configuration
+modify the config:
+
 
 
 

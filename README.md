@@ -14,7 +14,7 @@ The key steps in this automated process are as follows:
 * Intra-case atlas creation to reduce variation across scans.
 
 ## Dependencies
-The follwoing Python libraries are utilized to build this project:
+The following Python libraries are utilized to build this project:
 
 * SimpleITK: Allows for multi-dimensional image analysis. Used to process our NIFTI images and conduct image registration.
 * NumPy: Allows for efficent mathematical operations.

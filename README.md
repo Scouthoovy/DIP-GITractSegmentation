@@ -33,16 +33,26 @@ The code structure of the project is organized into 5 main files:
 ## Data Format
 data/ 
 
-└── train/ \\
-└── case101/ \\
+└── train/ 
+
+└── case101/ 
+
 ├── case101_day20/
+
 │   └── scans/
+
 │       ├── slice_0001.png
+
 │       ├── slice_0002.png
+
 │       └── ...
+
 ├── case101_day22/
+
 │   └── scans/
+
 │       └── ...
+
 └── ...
 
 ## Execution

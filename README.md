@@ -138,9 +138,9 @@ Our preprocessing pipeline significantly improved segmentation performance acros
 | **Improvement** | **+334%** | **-68%** | **+93%** |
 
 For comparison, other published approaches on the same dataset:
-- 2.5D U-Net [Zhou et al., 2023]: Dice = 0.848
-- U-Net + Attention [Ye et al., 2022]: Dice = 0.911
-- U-Net + Inception [Sah & Logofatu, 2025]: Dice = 0.91
+- 2.5D U-Net [Zhou et al., 2023](https://doi.org/10.54097/fcis.v6i1.19): Dice = 0.848
+- U-Net + Attention [Ye et al., 2022](https://doi.org/10.1007/978-3-031-20862-1_23): Dice = 0.911
+- U-Net + Inception [Sah & Logofatu, 2025](https://doi.org/10.1007/978-3-031-77731-8_21): Dice = 0.91
 
 ### Examples
 Examples images of the visual difference in segmentation performance can be see by viewing the two examples images in the example_images folder.

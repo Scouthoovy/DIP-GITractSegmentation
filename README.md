@@ -15,12 +15,19 @@ The key steps in this automated process are as follows:
 ## Dependencies
 The following Python libraries are utilized to build this project:
 
-* SimpleITK: Allows for multi-dimensional image analysis.
-* NumPy: Allows for efficent mathematical operations.
-* Scikit-Image: Used for resizing images.
-* Pandas:
-* Tensorflow:
-* PyWavelets: 
+* SimpleITK
+* NumPy
+* Scikit-Image
+* Pandas
+* Tensorflow
+* PyWavelets
+* OpenCV
+* Scikit-Learn
+* Matplotlib
+* glob
+* os
+* random
+* collections.defaultdict
 
 ## Installation
 ## Code Structure

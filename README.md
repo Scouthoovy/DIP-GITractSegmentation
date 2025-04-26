@@ -127,6 +127,21 @@ We should expect to see:
 * Weighted Dice + 3D Hausdorff distance metric for both unprocessed and processed data models.
 * .h5 saves for both unprocessed and processed data models.
 
+### Performance Comparison
+
+Our preprocessing pipeline significantly improved segmentation performance across all evaluation metrics when applied to a standard U-Net architecture:
+
+| Model | Dice Coefficient | 3D Hausdorff Distance | Weighted DH Metric |
+|-------|------------------|------------------------|-------------------|
+| U-Net + Unprocessed | 0.177 ± 0.312 | 0.401 ± 0.113 | 0.430 ± 0.142 |
+| U-Net + Preprocessed | 0.768 ± 0.169 | 0.128 ± 0.061 | 0.830 ± 0.077 |
+| **Improvement** | **+334%** | **-68%** | **+93%** |
+
+For comparison, other published approaches on the same dataset:
+- 2.5D U-Net [Zhou et al., 2023]: Dice = 0.848
+- U-Net + Attention [Ye et al., 2022]: Dice = 0.911
+- U-Net + Inception [Sah & Logofatu, 2025]: Dice = 0.91
+
 ### Examples
 Examples images of the visual difference in segmentation performance can be see by viewing the two examples images in the example_images folder.
 

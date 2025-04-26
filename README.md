@@ -145,7 +145,8 @@ For comparison, other published approaches on the same dataset:
 ### Examples
 Examples images of the visual difference in segmentation performance can be see by viewing the two examples images in the example_images folder.
 
-![Segmentation Comparison](images/example_masks_processed.png)
+![Segmentation Comparison - Processed](example_images/example_mask_processed.png)
+![Segmentation Comparison - Unprocessed](example_images/example_mask_unprocessed.png)
 *Comparison of segmentation results
 
 ## Contact

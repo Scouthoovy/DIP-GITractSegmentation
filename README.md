@@ -78,6 +78,25 @@ data/
 
 This format is what the code will expect as well.
 
+## Installation
+#### Step 1
+Clone the repository
+'''bash
+git clone https://github.com/Scouthoovy/DIP-GITractSegmentation.git
+
+#### Step 2
+Install dependencies listed in the [Dependencies](#dependencies) section
+
+#### Step 3
+1. Download the [UW-Madison GI Tract Image Segmentation](https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation/data) dataset from Kaggle.com
+2. Extract the contents into a directory named data in your project directory.
+3. Ensure the directory structure matches the expected format as described in the [Data & Format](#data--format) section.
+
+#### Step 4
+Ensure everything has been installed correctly by running the script momentarily. You should begin to see printouts indicated case ids, as shown below:
+'''case id 1/85
+case id 2/85...
+
 ## Execution
 Each .py file contains necessary functions for running the experiment.
 

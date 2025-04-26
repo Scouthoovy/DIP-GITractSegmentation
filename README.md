@@ -103,6 +103,9 @@ We should expect to see:
 * Weighted Dice + 3D Hausdorff distance metric for both unprocessed and processed data models.
 * .h5 saves for both unprocessed and processed data models.
 
+### Examples
+Examples images of the visual difference in segmentation performance can be see by viewing the two examples images in the example_images folder.
+
 ## Contact
 Brayden Yarish - braydenyarish@gmail.com 
 

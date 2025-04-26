@@ -80,7 +80,27 @@ data/
 This format is what the code will expect as well.
 
 ## Execution
+Each .py file contains necessary functions for running the experiment.
+
+* utilities.py: contains functions for decoding RLE strings, plotting images, extracting masks from tf.Datasets, and building 3D volumes from slices.
+* preprocessing.py: contains functions for applying the three main transformations: intensity normalization, CLAHE, and wavelet denoising.
+* metrics.py: contains functions for calculating mean Dice coefficent, mean 3D Hausdorff distance, a combined metric of the two.
+* model.py contains functions for building a U-Net model architecture.
+* create_dataset.py: contains functions to load, filter, and split images into datasets.
+* main.py: contains main() method for running full program. 
+
 ### Configuration
+
+Simply running main.py will conduct the full pipeline, from loading the data to training the model and calculating the Dice coefficient and 3D Hausdorff distance. It will also save both trained models at the end.
+If you wish to change any parameters, it would be best to do so within the main.py file.
+
+### Results
+
+We should expect to see:
+* mean Dice coefficient for both unprocessed and processed data models.
+* mean 3D Hausdorff distance for both unprocessed and processed data models.
+* Weighted Dice + 3D Hausdorff distance metric for both unprocessed and processed data models.
+* .h5 saves for both unprocessed and processed data models.
 
 ## Contact
 Brayden Yarish - braydenyarish@gmail.com

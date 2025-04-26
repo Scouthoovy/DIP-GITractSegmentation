@@ -8,27 +8,29 @@ It's important that segmentation of the GI tract is accurate for streamlining th
 
 The key steps in this automated process are as follows:
 
-* Conversion of PNG slices to NifTI format.
-* Bias field correction to mitigate intenstiy inhomogeneities.
-* Intensity normalization to standardize the intensity range.
-* Intra-case atlas creation to reduce variation across scans.
+* Wavelet denoising to suppress noise while maintain organ structures and sharpness
+* Min-max intensity normalization to standardize the intensity range.
+* Contrast Limited Adaptive Histogram Equalization to enhance contrast without over-amplification of noise.
 
 ## Dependencies
 The following Python libraries are utilized to build this project:
 
-* SimpleITK: Allows for multi-dimensional image analysis. Used to process our NIFTI images and conduct image registration.
+* SimpleITK: Allows for multi-dimensional image analysis.
 * NumPy: Allows for efficent mathematical operations.
-* Pillow: Allows for reading PNG image slices.
 * Scikit-Image: Used for resizing images.
+* Pandas:
+* Tensorflow:
+* PyWavelets: 
 
 ## Installation
 ## Code Structure
 The code structure of the project is organized into 5 main files:
 * main.py
-* utils.py
+* utilities.py
 * preprocessing.py
-* atlas_creation.py
-* validation.py
+* model.py
+* metrics.py
+* create_dataset.py
 
 ## Data & Format
 

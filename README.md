@@ -93,6 +93,8 @@ Each .py file contains necessary functions for running the experiment.
 Simply running main.py will conduct the full pipeline, from loading the data to training the model and calculating the Dice coefficient and 3D Hausdorff distance. It will also save both trained models at the end.
 If you wish to change any parameters, it would be best to do so within the main.py file.
 
+Ensure you set the proper filepaths before running main.py.
+
 ### Results
 
 We should expect to see:

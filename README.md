@@ -147,7 +147,7 @@ Examples images of the visual difference in segmentation performance can be see 
 
 ![Segmentation Comparison - Processed](example_images/example_mask_processed.png)
 ![Segmentation Comparison - Unprocessed](example_images/example_mask_unprocessed.png)
-*Comparison of segmentation results: First row (Processed): Original MRI slice (left), Ground Truth Segmentation (Center), and Predictioned Segmentation (Right). Second Row (Unprocessed): Original MRI slice (left), Ground Truth Segmentation (Center), and Predictioned Segmentation (Right)*
+*Comparison of segmentation results: First row (Processed): Original MRI slice (left), Ground Truth Segmentation (Center), and Predictioned Segmentation (Right) First row is processed data, second row is unprocessed data.*
 
 
 ## Contact

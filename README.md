@@ -95,7 +95,7 @@ Install dependencies listed in the [Dependencies](#dependencies) section
 3. Ensure the directory structure matches the expected format as described in the [Data & Format](#data--format) section.
 
 #### Step 4
-Ensure everything has been installed correctly by running the script momentarily. You should begin to see printouts indicated case ids, as shown below:
+Ensure everything has been installed correctly by running the script momentarily. You should begin to see printouts similar to below:
 ```
 case id 1/85
 case id 2/85

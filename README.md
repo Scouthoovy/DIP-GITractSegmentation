@@ -1,8 +1,5 @@
 # Medical Image Preprocessing Pipeline for GI Tract Segmentation
 
-[![Build Status](https://img.shields.io/...)](…)
-[![License: MIT](https://img.shields.io/...)](LICENSE)
-
 This project implements a comprehensive preprocessing pipeline for gastrointestinal (GI) MRI images. The pipeline addresses common challenges in medical image analysis, with the intent of preparing high-quality data for training segmentation models and an end of goal enhancing the performance of deep learning segmentation applications on medical images.
 
 ## Table of Contents

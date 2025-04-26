@@ -5,7 +5,7 @@ This project implements a comprehensive preprocessing pipeline for gastrointesti
 ## Table of Contents
 - [Introduction](#introduction)
 - [Dependencies](#dependencies)
-- [Installation](#isntallation)
+- [Data & Format](#data--format)
 - [Configuration](#configuration)
 - [Execution](#execution)
 - [Contact](#contact)
@@ -37,7 +37,6 @@ The following Python libraries are utilized to build this project:
 * random
 * collections.defaultdict
 
-## Installation
 ## Code Structure
 The code structure of the project is organized into 5 main files:
 * main.py

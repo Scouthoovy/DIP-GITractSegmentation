@@ -7,9 +7,7 @@ This project implements a comprehensive preprocessing pipeline for gastrointesti
 - [Dependencies](#dependencies)
 - [Installation](#isntallation)
 - [Configuration](#configuration)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
+- [Execution](#execution)
 - [Contact](#contact)
 
 ## Introduction
@@ -83,7 +81,13 @@ This format is what the code will expect as well.
 
 ## Execution
 ### Configuration
-modify the config:
+
+## Contact
+Brayden Yarish - braydenyarish@gmail.com
+The University of Winnipeg - MSc Student
+
+
+
 
 
 

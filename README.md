@@ -104,7 +104,8 @@ We should expect to see:
 * .h5 saves for both unprocessed and processed data models.
 
 ## Contact
-Brayden Yarish - braydenyarish@gmail.com \\
+Brayden Yarish - braydenyarish@gmail.com \
+
 The University of Winnipeg - MSc Student
 
 

@@ -81,8 +81,10 @@ This format is what the code will expect as well.
 ## Installation
 #### Step 1
 Clone the repository
-'''bash
+'''
+bash
 git clone https://github.com/Scouthoovy/DIP-GITractSegmentation.git
+'''
 
 #### Step 2
 Install dependencies listed in the [Dependencies](#dependencies) section
@@ -94,8 +96,11 @@ Install dependencies listed in the [Dependencies](#dependencies) section
 
 #### Step 4
 Ensure everything has been installed correctly by running the script momentarily. You should begin to see printouts indicated case ids, as shown below:
-'''case id 1/85
-case id 2/85...
+'''
+case id 1/85
+case id 2/85
+...
+'''
 
 ## Execution
 Each .py file contains necessary functions for running the experiment.

@@ -20,7 +20,7 @@ The key steps in this automated process are as follows:
 * Min-max intensity normalization to standardize the intensity range.
 * Contrast Limited Adaptive Histogram Equalization to enhance contrast without over-amplification of noise.
 
-We train two models: one on our preprocessed data, and one on unprocessed data. We evaluate the performance of each model on three metrics: Dice coefficient, 3D Hausdorff distance, and a weighted combined Dice-Hausdorff metric.
+We train two models: one on our preprocessed data, and one on unprocessed data. We evaluate the performance of each model on three metrics: Dice coefficient, 3D Hausdorff distance, and a weighted combined Dice-Hausdorff metric. We utilize a standard U-Net architecture for both models.
 
 ## Dependencies
 The following Python libraries are utilized to build this project:
